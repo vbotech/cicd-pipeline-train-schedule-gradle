@@ -14,6 +14,7 @@ task zip(type: Zip) {
   include "data/**"
   include "node_modules/**"
   include "public/**"
+  include "opt/**"
   include "routes/**"
   include "views/**"
   }
